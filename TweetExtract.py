@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
+
 
 # In[2]:
 
@@ -8,10 +7,10 @@ import tweepy
 import csv
 import pandas as pd
 
-consumer_key = 'DFBLYf1E81InkNJTXCg0moNlw'
-consumer_secret = 'QbYcAof13dlGIphUnZsSBy0mKVZFXBaOtV4oGtqMtnmYa5NSgp'
-access_token = '1097934750088495105-Yybg4MNucMCZTiXFmAPB3gKb63sQ1a'
-access_token_secret = 'Al6gCJQWtNJR3eVfI0Jb3OZOmMYeyNhgJK7DKNsYdX9hi'
+consumer_key = 'Enter consumer key within single quotes'
+consumer_secret = 'Enter consumer secret key within single quotes'
+access_token = 'Enter access token key within single quotes'
+access_token_secret = 'Enter secret access key within single quotes'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
@@ -55,26 +54,6 @@ plt.show()
 
 csv
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
